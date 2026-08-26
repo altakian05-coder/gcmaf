@@ -1,0 +1,16 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"main": ".open-next/worker.js",
+	"name": "gcmaf-biopharma",
+	"account_id": "f9853c7579382315974b4597e118de31",
+	"compatibility_date": "2026-03-27",
+	"compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+	"assets": {
+		"directory": ".open-next/assets",
+		"binding": "ASSETS"
+	},
+	"routes": [
+		{ "pattern": "gcmaf.net", "custom_domain": true },
+		{ "pattern": "www.gcmaf.net", "custom_domain": true }
+	]
+}

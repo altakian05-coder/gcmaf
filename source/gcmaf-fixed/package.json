@@ -1,0 +1,35 @@
+{
+  "name": "gcmaf",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/sites-preview.mjs",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "preview": "opennextjs-cloudflare build && wrangler dev",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
+  },
+  "dependencies": {
+    "@marsidev/react-turnstile": "^1.5.0",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.7.0",
+    "next": "16.2.1",
+    "next-themes": "^0.4.6",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "resend": "^6.9.4"
+  },
+  "devDependencies": {
+    "@opennextjs/cloudflare": "^1.18.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.1",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "wrangler": "^4.77.0"
+  }
+}

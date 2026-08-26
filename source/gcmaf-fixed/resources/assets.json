@@ -1,0 +1,764 @@
+[
+  {
+    "page": "global",
+    "section": "header",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/logo-1-png.webp?bwp",
+    "local_path": "resources/assets/global/logo.webp",
+    "description": "Immunax primary logo — shield icon + wordmark, used in header across all pages",
+    "placement": "header logo",
+    "download_failed": false
+  },
+  {
+    "page": "global",
+    "section": "footer",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/footer-1-png.webp?bwp",
+    "local_path": "resources/assets/global/footer-logo.webp",
+    "description": "Immunax footer logo — white variant of the logo for dark footer background",
+    "placement": "footer logo",
+    "download_failed": false
+  },
+  {
+    "page": "global",
+    "section": "footer",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/link-png.webp?bwp",
+    "local_path": "resources/assets/global/footer-bg.webp",
+    "description": "Dark footer background texture used across all pages",
+    "placement": "footer background",
+    "download_failed": false
+  },
+  {
+    "page": "home",
+    "section": "hero",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/product-png.webp?bwp",
+    "local_path": "resources/assets/home/hero-product-vial.webp",
+    "description": "Immunax product vials (2-3 vials) render on transparent background — hero section right side",
+    "placement": "hero, right column image",
+    "download_failed": false
+  },
+  {
+    "page": "home",
+    "section": "what-is-immunax",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/what-png.webp?bwp",
+    "local_path": "resources/assets/home/what-is-immunax-bg.webp",
+    "description": "Background texture/pattern for the 'What Is Immunax' section",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "home",
+    "section": "what-is-immunax",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/whatis-png.webp?bwp",
+    "local_path": "resources/assets/home/what-is-immunax-diagram.webp",
+    "description": "Scientific/molecular visualization or diagram for What Is Immunax section (1400x1133px)",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "home",
+    "section": "clinical-applications",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/whatcondition-1-png.webp?bwp",
+    "local_path": "resources/assets/home/clinical-applications-bg.webp",
+    "description": "Background for the Clinical Applications cards section on the homepage",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "home",
+    "section": "clinical-applications",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/brain-png.webp?bwp",
+    "local_path": "resources/assets/home/card-neurological.webp",
+    "description": "Card image for Neurological Disorders clinical application (486x306px)",
+    "placement": "feature card image",
+    "download_failed": false
+  },
+  {
+    "page": "home",
+    "section": "clinical-applications",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/autoimmune-png.webp?bwp",
+    "local_path": "resources/assets/home/card-autoimmune.webp",
+    "description": "Card image for Autoimmune Diseases clinical application (486x306px)",
+    "placement": "feature card image",
+    "download_failed": false
+  },
+  {
+    "page": "home",
+    "section": "clinical-applications",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/chronic-png.webp?bwp",
+    "local_path": "resources/assets/home/card-chronic-infections.webp",
+    "description": "Card image for Chronic Infections clinical application (486x306px)",
+    "placement": "feature card image",
+    "download_failed": false
+  },
+  {
+    "page": "home",
+    "section": "clinical-applications",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/immune-png.webp?bwp",
+    "local_path": "resources/assets/home/card-immune-enhancement.webp",
+    "description": "Card image for Immune Enhancement clinical application (486x306px)",
+    "placement": "feature card image",
+    "download_failed": false
+  },
+  {
+    "page": "home",
+    "section": "immune-support-banner",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/a-png.webp?bwp",
+    "local_path": "resources/assets/home/immune-support-bg.webp",
+    "description": "Full-width background for the 'Immune Support for Optimal Wellness' band section",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "home",
+    "section": "potential-benefits",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/whatare-png.webp?bwp",
+    "local_path": "resources/assets/home/potential-benefits-diagram.webp",
+    "description": "Diagram/illustration for Potential Benefits section (664x653px)",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "home",
+    "section": "published-research",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/whatdoes-png.webp?bwp",
+    "local_path": "resources/assets/home/published-research-diagram.webp",
+    "description": "Circular diagram for Published Research section (660x660px)",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "home",
+    "section": "contact-form",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/connect-png.webp?bwp",
+    "local_path": "resources/assets/home/contact-form-bg.webp",
+    "description": "Background for the 'Connect With Us Today' contact form section at bottom of homepage",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "about-us",
+    "section": "hero",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/about-png.webp?bwp",
+    "local_path": "resources/assets/about-us/hero-bg.webp",
+    "description": "Full-bleed hero background image for About Us page",
+    "placement": "hero background",
+    "download_failed": false
+  },
+  {
+    "page": "about-us",
+    "section": "what-we-do",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/03/Immunax-Vial-optimised-png.webp?bwp",
+    "local_path": "resources/assets/about-us/immunax-vial.webp",
+    "description": "Optimised Immunax vial product render used in What We Do section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "about-us",
+    "section": "what-we-do",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/whatdo-png.webp?bwp",
+    "local_path": "resources/assets/about-us/what-we-do-bg.webp",
+    "description": "Background texture for What Do We Do section",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "about-us",
+    "section": "our-mission",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/ourmission-png.webp?bwp",
+    "local_path": "resources/assets/about-us/our-mission-image.webp",
+    "description": "Content image for Our Mission section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "about-us",
+    "section": "our-mission",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/om-png.webp?bwp",
+    "local_path": "resources/assets/about-us/our-mission-bg.webp",
+    "description": "Background texture for Our Mission section (reused on Cancer and Immune Enhancement pages)",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "about-us",
+    "section": "our-vision",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/ourvision-png.webp?bwp",
+    "local_path": "resources/assets/about-us/our-vision-image.webp",
+    "description": "Content image for Our Vision section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "about-us",
+    "section": "our-vision",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/ov-png.webp?bwp",
+    "local_path": "resources/assets/about-us/our-vision-bg.webp",
+    "description": "Background texture for Our Vision section (heavily reused across site as alternating section bg)",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "about-us",
+    "section": "promise",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/w-png.webp?bwp",
+    "local_path": "resources/assets/about-us/promise-bg.webp",
+    "description": "Background texture reused widely across the site as the primary alternating section bg",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "about-us",
+    "section": "team-slider",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/shar-png.webp?bwp",
+    "local_path": "resources/assets/about-us/team-slider-bg.webp",
+    "description": "Background for team section slider area",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "product",
+    "section": "hero",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/i-png.webp?bwp",
+    "local_path": "resources/assets/product/hero-vial.webp",
+    "description": "Single Immunax vial render for the product page hero section",
+    "placement": "hero content image",
+    "download_failed": false
+  },
+  {
+    "page": "product",
+    "section": "hero",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/p-png.webp?bwp",
+    "local_path": "resources/assets/product/hero-bg.webp",
+    "description": "Full-bleed hero background for the Product page",
+    "placement": "hero background",
+    "download_failed": false
+  },
+  {
+    "page": "product",
+    "section": "key-features",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/Immunax-Vial_12-png.webp?bwp",
+    "local_path": "resources/assets/product/key-features-vial.webp",
+    "description": "Immunax vial render variant 12 used in Key Features section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "product",
+    "section": "why-immunax",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/whyi-png.webp?bwp",
+    "local_path": "resources/assets/product/why-immunax-image.webp",
+    "description": "Content image for Why Immunax section showing benefits visualization",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "product",
+    "section": "why-immunax",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/why-png.webp?bwp",
+    "local_path": "resources/assets/product/why-immunax-bg.webp",
+    "description": "Background for Why Immunax section",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "product",
+    "section": "reported-benefits",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/whatarethe-png.webp?bwp",
+    "local_path": "resources/assets/product/reported-benefits-bg.webp",
+    "description": "Full-width background for Reported Benefits section on Product page",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "product",
+    "section": "ingredient",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/immunaxingredient-png.webp?bwp",
+    "local_path": "resources/assets/product/ingredient-bg.webp",
+    "description": "Full-width ingredient visualization background on Product page",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "product",
+    "section": "divider",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/s-png.webp?bwp",
+    "local_path": "resources/assets/product/section-divider-bg.webp",
+    "description": "Section divider background pattern used on Product and Cancer pages",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "clinical-applications",
+    "section": "hero",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/c-1-png.webp?bwp",
+    "local_path": "resources/assets/clinical-applications/hero-bg.webp",
+    "description": "Full-bleed hero background for Clinical Applications page",
+    "placement": "hero background",
+    "download_failed": false
+  },
+  {
+    "page": "clinical-applications",
+    "section": "broad-spectrum",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/apowerful-png.webp?bwp",
+    "local_path": "resources/assets/clinical-applications/broad-spectrum-image.webp",
+    "description": "Content image for 'A Broad-Spectrum Immune Enhancer' section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "clinical-applications",
+    "section": "nagalase",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/nagalase-png.webp?bwp",
+    "local_path": "resources/assets/clinical-applications/nagalase-image.webp",
+    "description": "Content image for nagalase mechanism explanation section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "clinical-applications",
+    "section": "restores-immune",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/immunaxrestore-png.webp?bwp",
+    "local_path": "resources/assets/clinical-applications/restores-immune-image.webp",
+    "description": "Content image for 'Immunax Restores Immune Function' section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "cancer",
+    "section": "global-burden",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/the-png.webp?bwp",
+    "local_path": "resources/assets/cancer/global-burden-image.webp",
+    "description": "Content image for 'The Global Burden of Cancer' section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "cancer",
+    "section": "standard-care",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/standard-png.webp?bwp",
+    "local_path": "resources/assets/cancer/standard-care-image.webp",
+    "description": "Content image for Standard Cancer Care section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "cancer",
+    "section": "cancer-disables",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/cancerdisable-png.webp?bwp",
+    "local_path": "resources/assets/cancer/cancer-disables-image.webp",
+    "description": "Content image for 'Cancer Disables the Immune System' section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "cancer",
+    "section": "nagalase-suppresses",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/nagalasesuppress-png.webp?bwp",
+    "local_path": "resources/assets/cancer/nagalase-suppress-image.webp",
+    "description": "Content image for nagalase suppression in cancer patients section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "cancer",
+    "section": "effective-recovery",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/effective-scaled-jpg.webp?bwp",
+    "local_path": "resources/assets/cancer/effective-recovery-bg.webp",
+    "description": "Full-width background image for 'Effective Immune Recovery with Immunax' section listing cancer types",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "neurological-disorders",
+    "section": "conditions-overview",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/Alzheimers-disease.png?bwp",
+    "local_path": "resources/assets/neurological-disorders/card-alzheimers.png",
+    "description": "Icon/card image for Alzheimer's disease condition",
+    "placement": "condition card icon",
+    "download_failed": false
+  },
+  {
+    "page": "neurological-disorders",
+    "section": "conditions-overview",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/Parkinsons-disease.png?bwp",
+    "local_path": "resources/assets/neurological-disorders/card-parkinsons.png",
+    "description": "Icon/card image for Parkinson's disease condition",
+    "placement": "condition card icon",
+    "download_failed": false
+  },
+  {
+    "page": "neurological-disorders",
+    "section": "conditions-overview",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/Multiple-sclerosis.png?bwp",
+    "local_path": "resources/assets/neurological-disorders/card-multiple-sclerosis.png",
+    "description": "Icon/card image for Multiple Sclerosis condition",
+    "placement": "condition card icon",
+    "download_failed": false
+  },
+  {
+    "page": "neurological-disorders",
+    "section": "conditions-overview",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/Autism-spectrum-disorde.png?bwp",
+    "local_path": "resources/assets/neurological-disorders/card-autism.png",
+    "description": "Icon/card image for Autism Spectrum Disorder condition",
+    "placement": "condition card icon",
+    "download_failed": false
+  },
+  {
+    "page": "neurological-disorders",
+    "section": "conditions-overview",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/Amyotrophic-lateral-1.png?bwp",
+    "local_path": "resources/assets/neurological-disorders/card-als.png",
+    "description": "Icon/card image for Amyotrophic Lateral Sclerosis (ALS) condition",
+    "placement": "condition card icon",
+    "download_failed": false
+  },
+  {
+    "page": "neurological-disorders",
+    "section": "conditions-overview",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2023/12/Chronic-fatigue.png?bwp",
+    "local_path": "resources/assets/neurological-disorders/card-chronic-fatigue.png",
+    "description": "Icon/card image for Chronic Fatigue Syndrome condition",
+    "placement": "condition card icon",
+    "download_failed": false
+  },
+  {
+    "page": "neurological-disorders",
+    "section": "how-it-works",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/how.png?bwp",
+    "local_path": "resources/assets/neurological-disorders/how-it-works-image.png",
+    "description": "Content image for How Does It Work section on neurological disorders page",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "neurological-disorders",
+    "section": "multiple-sclerosis",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/multiplesclerosis-png.webp?bwp",
+    "local_path": "resources/assets/neurological-disorders/multiple-sclerosis-image.webp",
+    "description": "Content image for Multiple Sclerosis deep-dive section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "neurological-disorders",
+    "section": "als",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/amyotrophic-scaled-jpg.webp?bwp",
+    "local_path": "resources/assets/neurological-disorders/als-bg.webp",
+    "description": "Full-width background image for ALS section",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "autoimmune-conditions",
+    "section": "clinical-benefits",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/03/Immunax-Vial-optimised-png.webp?bwp",
+    "local_path": "resources/assets/autoimmune-conditions/clinical-benefits-vial.webp",
+    "description": "Immunax vial product render for the Clinical Benefits section on Autoimmune page",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "autoimmune-conditions",
+    "section": "how-it-works",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/howdoes-png.webp?bwp",
+    "local_path": "resources/assets/autoimmune-conditions/how-it-works-image.webp",
+    "description": "Content image for How Does It Work section on Autoimmune Conditions page",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "autoimmune-conditions",
+    "section": "lupus",
+    "asset_type": "image",
+    "url": "https://immunax.com/wp-content/uploads/2024/01/lupus.jpg",
+    "local_path": "resources/assets/autoimmune-conditions/lupus-bg.jpg",
+    "description": "Full-width background for lupus condition section (served from origin, not CDN)",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "chronic-infections",
+    "section": "how-it-works",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/howdoesit-png.webp?bwp",
+    "local_path": "resources/assets/chronic-infections/how-it-works-image.webp",
+    "description": "Content image for How Does It Work section on Chronic Infections page",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "chronic-infections",
+    "section": "hiv",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/hiv-png.webp?bwp",
+    "local_path": "resources/assets/chronic-infections/hiv-image.webp",
+    "description": "Content image for HIV/AIDS condition section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "chronic-infections",
+    "section": "covid19",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/covid19-png.webp?bwp",
+    "local_path": "resources/assets/chronic-infections/covid19-image.webp",
+    "description": "Content image for COVID-19 and Long COVID section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "chronic-infections",
+    "section": "hepatitis",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/hepatitis-jpg.webp?bwp",
+    "local_path": "resources/assets/chronic-infections/hepatitis-bg.webp",
+    "description": "Full-width background for Hepatitis section",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "chronic-infections",
+    "section": "tuberculosis",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/tuberculosis-jpg.webp?bwp",
+    "local_path": "resources/assets/chronic-infections/tuberculosis-bg.webp",
+    "description": "Full-width background for Tuberculosis section",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "immune-enhancement",
+    "section": "enhancing",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/enhance-1-png.webp?bwp",
+    "local_path": "resources/assets/immune-enhancement/enhancing-image.webp",
+    "description": "Content image for Enhancing the Immune System section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "immune-enhancement",
+    "section": "unlock-power",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/unlock-1-png.webp?bwp",
+    "local_path": "resources/assets/immune-enhancement/unlock-power-image.webp",
+    "description": "Content image for Unlocking the Power of Immunotherapy section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "immune-enhancement",
+    "section": "safe-naturally",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/safe-png.webp?bwp",
+    "local_path": "resources/assets/immune-enhancement/safe-naturally-image.webp",
+    "description": "Content image for Safe and Naturally Produced section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "immune-enhancement",
+    "section": "optimizing-defense",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/optimize-png.webp?bwp",
+    "local_path": "resources/assets/immune-enhancement/optimizing-defense-image.webp",
+    "description": "Content image for Optimizing Immune Defense section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "research",
+    "section": "hero",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/research-2-png.webp?bwp",
+    "local_path": "resources/assets/research/hero-bg.webp",
+    "description": "Full-bleed hero background for Research page",
+    "placement": "hero background",
+    "download_failed": false
+  },
+  {
+    "page": "research",
+    "section": "supported-by-science",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/immunaxis-png.webp?bwp",
+    "local_path": "resources/assets/research/supported-by-science-image.webp",
+    "description": "Content image for '30+ Years of Scientific Research' section",
+    "placement": "content image",
+    "download_failed": false
+  },
+  {
+    "page": "research",
+    "section": "physiological-effects",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/scientifical-jpg.webp?bwp",
+    "local_path": "resources/assets/research/physiological-effects-bg.webp",
+    "description": "Full-width background for Scientifically-Validated Physiological Effects section",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "research",
+    "section": "summary",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/thesummary-scaled-jpg.webp?bwp",
+    "local_path": "resources/assets/research/summary-bg.webp",
+    "description": "Full-width background for the research summary section",
+    "placement": "section background",
+    "download_failed": false
+  },
+  {
+    "page": "contact-us",
+    "section": "hero",
+    "asset_type": "image",
+    "url": "https://berqwp-cdn.sfo3.cdn.digitaloceanspaces.com/cache/immunax.com/wp-content/uploads/2024/01/contact-png.webp?bwp",
+    "local_path": "resources/assets/contact-us/hero-bg.webp",
+    "description": "Full-bleed hero background for Contact Us page",
+    "placement": "hero background",
+    "download_failed": false
+  },
+  {
+    "page": "home",
+    "section": "hero",
+    "asset_type": "video",
+    "url": "https://immunax.com/wp-content/uploads/2024/01/slider.mov",
+    "local_path": "resources/assets/home/hero-slider.mov",
+    "description": "Hero background video — animated particle/cell loop playing behind the homepage hero section (7.8MB, MOV)",
+    "placement": "hero background video",
+    "download_failed": false
+  },
+  {
+    "page": "home",
+    "section": "immunax-explainer",
+    "asset_type": "video",
+    "url": "https://immunax.com/wp-content/uploads/2025/03/immunax-explainer.webm",
+    "local_path": "resources/assets/home/immunax-explainer.webm",
+    "description": "Full Immunax product explainer video with poster image (36MB, WebM). Most prominent video on site.",
+    "placement": "content video with poster",
+    "poster_url": "https://immunax.com/wp-content/uploads/2025/03/explainer-2.jpg",
+    "poster_local": "resources/assets/home/explainer-poster.jpg",
+    "download_failed": false
+  },
+  {
+    "page": "home",
+    "section": "how-does-immunax-work",
+    "asset_type": "video",
+    "url": "https://immunax.com/wp-content/uploads/2024/02/how.mov",
+    "local_path": "resources/assets/home/how-does-it-work.mov",
+    "description": "Animation video showing how Immunax/macrophages work (5.8MB, MOV)",
+    "placement": "content video",
+    "download_failed": false
+  },
+  {
+    "page": "product",
+    "section": "how-does-it-work",
+    "asset_type": "video",
+    "url": "https://immunax.com/wp-content/uploads/2024/02/howdoesit-1.mov",
+    "local_path": "resources/assets/product/how-does-it-work.mov",
+    "description": "How Does It Work mechanism video on the Product page (18MB, MOV)",
+    "placement": "content video",
+    "download_failed": false
+  },
+  {
+    "page": "cancer",
+    "section": "integrated-immune-response",
+    "asset_type": "video",
+    "url": "https://immunax.com/wp-content/uploads/2024/01/anintegrate.mov",
+    "local_path": "resources/assets/cancer/integrated-immune-response.mov",
+    "description": "Animation showing integrated immune response against cancer cells (18MB, MOV)",
+    "placement": "content video",
+    "download_failed": false
+  },
+  {
+    "page": "neurological-disorders",
+    "section": "mechanism",
+    "asset_type": "video",
+    "url": "https://immunax.com/wp-content/uploads/2024/01/neurological.mp4",
+    "local_path": "resources/assets/neurological-disorders/neurological-mechanism.mp4",
+    "description": "Neurological mechanism animation video (5.1MB, MP4)",
+    "placement": "content video",
+    "download_failed": false
+  },
+  {
+    "page": "autoimmune-conditions",
+    "section": "mechanism",
+    "asset_type": "video",
+    "url": "https://immunax.com/wp-content/uploads/2024/02/autoimmune.mp4",
+    "local_path": "resources/assets/autoimmune-conditions/autoimmune-mechanism.mp4",
+    "description": "Autoimmune mechanism animation video (12MB, MP4)",
+    "placement": "content video",
+    "download_failed": false
+  },
+  {
+    "page": "chronic-infections",
+    "section": "mechanism",
+    "asset_type": "video",
+    "url": "https://immunax.com/wp-content/uploads/2024/01/chronicinfection-1.mp4",
+    "local_path": "resources/assets/chronic-infections/chronic-infection-mechanism.mp4",
+    "description": "Chronic infection mechanism animation video (3.9MB, MP4)",
+    "placement": "content video",
+    "download_failed": false
+  },
+  {
+    "page": "immune-enhancement",
+    "section": "immune-cell-activation",
+    "asset_type": "video",
+    "url": "https://immunax.com/wp-content/uploads/2024/01/Immune-Cell-Destroying-The-Germ-1.mov",
+    "local_path": "resources/assets/immune-enhancement/immune-cell-destroying-germ.mov",
+    "description": "Animation of immune cell destroying a pathogen/germ (9.4MB, MOV)",
+    "placement": "content video",
+    "download_failed": false
+  }
+]

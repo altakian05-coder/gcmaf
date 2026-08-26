@@ -1,0 +1,251 @@
+@import "tailwindcss";
+
+/* ─── Brand Tokens ───────────────────────────────────────────────── */
+/* Tailwind v4 reads @theme to generate utilities (bg-brand, text-ink, etc.)  */
+/* Fonts are loaded via next/font in layout.tsx and injected as              */
+/* --font-display / --font-body CSS vars on <html>.                          */
+@theme {
+  /* Colours */
+  --color-bg:           #F4FEFF;
+  --color-surface:      #FFFFFF;
+  --color-ink:          #25315E;
+  --color-ink-muted:    #727172;
+  --color-brand:        #6EB8C4;
+  --color-brand-light:  #8ECFDB;
+  --color-accent:       #25315E;
+  --color-accent-light: #6EB8C4;
+  --color-border:       #D9EFF2;
+  --color-footer-bg:    #25315E;
+  /* Always-dark surfaces (dark panels, hero gradient end) — never inverted */
+  --color-panel-dark:   #25315E;
+  --color-hero-end:     #25315E;
+
+  /* Fluid font sizes */
+  --text-hero:       clamp(2.5rem, 6vw, 5rem);
+  --text-section:    clamp(1.8rem, 3.5vw, 3rem);
+  --text-card-title: clamp(1.1rem, 2vw, 1.4rem);
+
+  /* Blur scale */
+  --blur-nav: 12px;
+
+  /* Animations */
+  --animate-float-cell:    float-cell    8s ease-in-out infinite;
+  --animate-pulse-radial:  pulse-radial  6s ease-in-out infinite;
+  --animate-shimmer:       shimmer       3s linear     infinite;
+}
+
+/* ─── Dark Mode Overrides ────────────────────────────────────────── */
+/* next-themes adds .dark to <html>; overriding the same CSS vars    */
+/* makes every utility (bg-bg, text-ink, etc.) adapt automatically.  */
+.dark {
+  --color-bg:           #0D1B2A;
+  --color-surface:      #152238;
+  --color-ink:          #E2EEF2;
+  --color-ink-muted:    #7A9BB5;
+  --color-brand:        #6EB8C4;
+  --color-brand-light:  #8ECFDB;
+  --color-accent:       #6EB8C4;
+  --color-accent-light: #8ECFDB;
+  --color-border:       #1E3A52;
+  --color-footer-bg:    #080F1A;
+  --color-panel-dark:   #0D2140;
+  --color-hero-end:     #0a1828;
+}
+
+/* ─── Font utilities (CSS vars injected by next/font on <html>) ──── */
+@layer utilities {
+  .font-display { font-family: var(--font-display, 'Montserrat', sans-serif); }
+  .font-body    { font-family: var(--font-body,    'Roboto', sans-serif); }
+}
+
+/* ─── Base Styles ────────────────────────────────────────────────── */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body, 'Roboto', sans-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display, 'Montserrat', sans-serif);
+}
+
+/* ─── Keyframes ──────────────────────────────────────────────────── */
+@keyframes pulse-radial {
+  0%, 100% { opacity: 0.8; }
+  50%       { opacity: 1;   }
+}
+
+@keyframes float-cell {
+  0%, 100% { transform: translateY(0px)   rotate(0deg);  }
+  33%       { transform: translateY(-12px) rotate(1deg);  }
+  66%       { transform: translateY(-6px)  rotate(-1deg); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+
+@keyframes count-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0);    }
+}
+
+/* ─── Custom Component Classes ───────────────────────────────────── */
+.animate-float-cell {
+  animation: float-cell 8s ease-in-out infinite;
+}
+
+.hero-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--color-brand)      0%,
+    #4a9aaa                 50%,
+    var(--color-ink)        100%
+  );
+  animation: pulse-radial 6s ease-in-out infinite;
+}
+
+.gold-shimmer {
+  background: linear-gradient(
+    90deg,
+    var(--color-brand)       0%,
+    var(--color-brand-light) 50%,
+    var(--color-brand)       100%
+  );
+  background-size: 200% auto;
+  animation: shimmer 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.dark .hero-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--color-brand) 0%,
+    #4a9aaa            50%,
+    #0a1828            100%
+  );
+}
+
+.card-hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover-lift:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+}
+
+.medical-disclaimer {
+  font-family: var(--font-body, 'DM Sans', sans-serif);
+  font-style: italic;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────────── */
+::-webkit-scrollbar       { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb { background: var(--color-brand); border-radius: 3px; }
+
+/* ─── Selection ──────────────────────────────────────────────────── */
+::selection { background: var(--color-brand); color: white; }
+
+/* ─── Published Blog Article ────────────────────────────────────── */
+.blog-article {
+  font-family: var(--font-body, 'Roboto', sans-serif);
+  color: var(--color-ink-muted);
+  font-size: 1rem;
+  line-height: 1.82;
+}
+
+.blog-article p { margin: 1rem 0; }
+
+.blog-article h2:not(header h2) {
+  scroll-margin-top: 9rem;
+  color: var(--color-ink);
+  font-family: var(--font-display, 'Montserrat', sans-serif);
+  font-size: clamp(1.45rem, 2.5vw, 2rem);
+  font-weight: 600;
+  line-height: 1.3;
+  margin: 3rem 0 1rem;
+}
+
+.blog-article h2:not(header h2)::before {
+  content: '';
+  display: block;
+  width: 2.75rem;
+  height: 0.2rem;
+  margin-bottom: 0.8rem;
+  border-radius: 999px;
+  background: var(--color-brand);
+}
+
+.blog-article strong { color: var(--color-ink); font-weight: 600; }
+
+.blog-article a:not(.no-underline) {
+  color: var(--color-accent);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--color-brand) 45%, transparent);
+  text-underline-offset: 0.2em;
+}
+
+.blog-article a:not(.no-underline):hover { color: var(--color-brand); }
+
+.blog-article ul {
+  margin: 1rem 0;
+  padding-left: 1.4rem;
+  list-style: disc;
+}
+
+.blog-article li { margin: 0.45rem 0; }
+.blog-article li::marker { color: var(--color-brand); }
+
+.blog-note,
+.blog-warning,
+.blog-cta {
+  margin: 2rem 0;
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-brand);
+  border-radius: 0.8rem;
+  background: var(--color-bg);
+}
+
+.blog-warning {
+  border-left-color: #d9a12f;
+  background: color-mix(in srgb, #fff4d8 70%, var(--color-surface));
+}
+
+.dark .blog-warning {
+  background: color-mix(in srgb, #4a390d 40%, var(--color-surface));
+}
+
+.blog-cta {
+  margin-top: 3rem;
+  padding: clamp(1.4rem, 4vw, 2.2rem);
+  background:
+    radial-gradient(circle at 95% 0, color-mix(in srgb, var(--color-brand) 18%, transparent), transparent 38%),
+    var(--color-bg);
+}
+
+.blog-cta h2 { margin-top: 0 !important; }
+.blog-cta h2::before { display: none !important; }
+.blog-cta a { margin-top: 0.8rem; }
+
+.blog-sources {
+  margin-top: 2.75rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.92rem;
+}
