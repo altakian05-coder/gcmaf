@@ -1,2 +1,0 @@
-# gcmaf
-gcmaf medicine 
