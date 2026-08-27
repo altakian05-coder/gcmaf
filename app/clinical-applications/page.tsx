@@ -7,6 +7,9 @@ import { conditions } from '@/lib/data/conditions'
 export const metadata: Metadata = {
   title: 'Clinical Applications',
   description: 'GcMAF research spans cancer, neurological disorders, autoimmune diseases, chronic infections, and immune enhancement.',
+  alternates: {
+    canonical: 'https://gcmaf.net/clinical-applications',
+  },
 }
 
 const iconMap: Record<string, React.ElementType> = {
