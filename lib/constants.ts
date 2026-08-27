@@ -21,7 +21,7 @@ export const NAV_LINKS = [
     ],
   },
   { label: 'Research', href: '/research' },
-  { label: 'Blog', href: '/gcmaf-for-sale' },
+  { label: 'Blog', href: '/blog' },
 ]
 
 export const MEDICAL_DISCLAIMER =
