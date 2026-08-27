@@ -70,16 +70,12 @@ export function ProductVariants() {
                     {v.popular && <Badge variant="gold">Most Popular</Badge>}
                   </div>
 
-                  <div
-                    className="relative w-full h-56 mb-8 flex items-center justify-center overflow-hidden"
-                    style={{
-                      backgroundColor: "#ffffff",
-                    }}
-                  >
+                  <div className="relative w-full h-56 mb-8 flex items-center justify-center overflow-hidden bg-surface">
+                  
                     <Image
                       src={
                         v.id === "liquid"
-                          ? "/images/product/product-02-liquid-vial.jpg"
+                          ? "/images/product/product-02-liquid-vial.png"
                           : "/images/product/product-04-lyophilized-vial.png"
                       }
                       alt={`${v.name} formulation vial`}

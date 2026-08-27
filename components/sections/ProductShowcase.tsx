@@ -11,7 +11,7 @@ const showcaseImages = [
     label: "GcMAF Liquid — 10-Vial Presentation",
   },
   {
-    src: "/images/product/product-02-liquid-vial.jpg",
+    src: "/images/product/product-02-liquid-vial.png",
     alt: "GcMAF liquid Vitamin D binding protein vial",
     label: "GcMAF Liquid Vial",
   },
@@ -48,19 +48,22 @@ const STACK = [
     y: 0,
     rotate: 0,
     zIndex: 30,
-    shadow: "0 20px 60px rgba(37,49,94,0.16), 0 4px 16px rgba(37,49,94,0.08)",
+    shadow:
+      "0 20px 60px rgba(37,49,94,0.16), 0 4px 16px rgba(37,49,94,0.08)",
   },
 ];
 
 export function ProductShowcase() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [hovered, setHovered] = useState(false);
+
   const activeImage = showcaseImages[activeIndex];
 
   const next = useCallback(
     () => setActiveIndex((i) => (i + 1) % showcaseImages.length),
     [],
   );
+
   const prev = useCallback(
     () =>
       setActiveIndex(
@@ -72,7 +75,9 @@ export function ProductShowcase() {
   // Auto-advance — pauses on hover
   useEffect(() => {
     if (hovered) return;
+
     const timer = setInterval(next, 4000);
+
     return () => clearInterval(timer);
   }, [next, hovered]);
 
@@ -90,6 +95,7 @@ export function ProductShowcase() {
             <span className="w-6 h-px bg-brand" />
             Product Showcase
           </span>
+
           <h2 className="font-display text-section font-semibold text-ink leading-tight">
             Product Showcase
           </h2>
@@ -105,19 +111,28 @@ export function ProductShowcase() {
           className="max-w-3xl mx-auto"
         >
           <div className="relative pb-7 pr-8">
-            <div className="relative w-full" style={{ aspectRatio: "4/3" }}>
+            <div
+              className="relative w-full"
+              style={{ aspectRatio: "4/3" }}
+            >
               {STACK.map((pos, stackIdx) => {
                 const isFront = stackIdx === STACK.length - 1;
                 const imgOffset = STACK.length - 1 - stackIdx;
+
                 const img =
                   showcaseImages[
                     (activeIndex + imgOffset) % showcaseImages.length
                   ];
 
+                // Only individual vial images are reduced to 42%
+                const isVial =
+                  img.src.includes("product-02-liquid-vial") ||
+                  img.src.includes("product-04-lyophilized-vial");
+
                 return (
                   <div
                     key={stackIdx}
-                    className="absolute inset-0 rounded-2xl overflow-hidden border border-border bg-surface"
+                    className="absolute inset-0 rounded-2xl overflow-hidden border border-border bg-white"
                     style={{
                       zIndex: pos.zIndex,
                       boxShadow: pos.shadow,
@@ -137,18 +152,44 @@ export function ProductShowcase() {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
-                        transition={{ duration: 0.35, ease: "easeInOut" }}
-                        className="absolute inset-0"
+                        transition={{
+                          duration: 0.35,
+                          ease: "easeInOut",
+                        }}
+                        className="absolute inset-0 bg-white"
                       >
-                        <Image
-                          src={img.src}
-                          alt={img.alt}
-                          unoptimized
-                          fill
-                          className={`object-contain p-3 ${!isFront ? "brightness-95" : ""}`}
-                          sizes="(max-width: 1024px) 100vw, 50vw"
-                          priority={isFront}
-                        />
+                        {isVial ? (
+                          // INDIVIDUAL VIALS — 42% SIZE
+                          <div className="absolute inset-0 flex items-center justify-center bg-white">
+                            <Image
+                              src={img.src}
+                              alt={img.alt}
+                              unoptimized
+                              width={1024}
+                              height={1024}
+                              className={`w-[42%] h-auto object-contain ${
+                                !isFront ? "brightness-95" : ""
+                              }`}
+                              sizes="42vw"
+                              priority={isFront}
+                            />
+                          </div>
+                        ) : (
+                          // BOX IMAGES — ORIGINAL LARGE SIZE
+                          <div className="absolute inset-0 bg-white">
+                            <Image
+                              src={img.src}
+                              alt={img.alt}
+                              unoptimized
+                              fill
+                              className={`object-contain p-3 ${
+                                !isFront ? "brightness-95" : ""
+                              }`}
+                              sizes="(max-width: 1024px) 100vw, 50vw"
+                              priority={isFront}
+                            />
+                          </div>
+                        )}
                       </motion.div>
                     </AnimatePresence>
                   </div>
@@ -163,7 +204,12 @@ export function ProductShowcase() {
               className="w-8 h-8 rounded-full border border-border bg-surface hover:bg-brand hover:border-brand hover:text-white text-ink-muted flex items-center justify-center transition-colors shrink-0"
               aria-label="Previous image"
             >
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+              >
                 <path
                   d="M9 11L5 7l4-4"
                   stroke="currentColor"
@@ -197,7 +243,12 @@ export function ProductShowcase() {
               className="w-8 h-8 rounded-full border border-border bg-surface hover:bg-brand hover:border-brand hover:text-white text-ink-muted flex items-center justify-center transition-colors shrink-0"
               aria-label="Next image"
             >
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+              >
                 <path
                   d="M5 11l4-4-4-4"
                   stroke="currentColor"
@@ -224,6 +275,7 @@ export function ProductShowcase() {
           <h3 className="font-display text-2xl font-semibold text-ink mb-6">
             How does GcMAF work?
           </h3>
+
           <div className="space-y-4 font-body text-ink-muted leading-relaxed">
             <p>
               The active ingredient in GcMAF, VDBP-MAF, is a complex protein
@@ -231,6 +283,7 @@ export function ProductShowcase() {
               Protein (VDBP). VDBP-MAF is a naturally-occurring messenger
               molecule that directs and coordinates immune cells.
             </p>
+
             <p>
               As a stabilized vitamin D protein complex containing both
               precursor (VDBP) and active (VDBP-MAF) ingredients, GcMAF exerts
@@ -239,6 +292,7 @@ export function ProductShowcase() {
               increasing vitamin D half-life and activates macrophages, which
               coordinate an integrated immune response.
             </p>
+
             <p>
               Activated macrophages have diverse positive actions in the human
               body such as eliminating cancer cells, protecting against
@@ -255,7 +309,13 @@ export function ProductShowcase() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-12 max-w-5xl mx-auto"
         >
-          <video autoPlay muted loop playsInline className="w-full rounded-2xl">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="w-full rounded-2xl"
+          >
             <source
               src="https://cdn.gcmaf.net/product-how-does-it-work.mov"
               type="video/mp4"
