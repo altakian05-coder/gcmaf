@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   title: 'About GcMAF',
   description:
     'Learn about GcMAF — our mission, manufacturing standards, and commitment to advancing macrophage immunotherapy worldwide.',
+  alternates: {
+    canonical: 'https://gcmaf.net/about',
+  },
 };
 
 const values = [
