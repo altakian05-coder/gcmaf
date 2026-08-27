@@ -22,17 +22,16 @@ export const metadata: Metadata = {
   },
 };
 
-
 const sectionLinks = [
-  { label: "Q/A", href: "#questions" },
-  { label: "What is GcMAF?", href: "#what-is-gcmaf" },
-  { label: "GcMAF Supplement", href: "#supplement" },
-  { label: "Buy GcMAF", href: "#buy" },
-  { label: "Treatment", href: "#treatment" },
-  { label: "Therapy", href: "#therapy" },
-  { label: "Injections", href: "#injections" },
-  { label: "Storage", href: "#storage" },
-  { label: "Product Inquiry", href: "#inquiry" },
+  { label: "Q/A", href: "/gcmaf-for-sale/questions-and-answers" },
+  { label: "What is GcMAF?", href: "/gcmaf-for-sale/what-is-gcmaf" },
+  { label: "GcMAF Supplement", href: "/gcmaf-for-sale/gcmaf-supplement" },
+  { label: "Buy GcMAF", href: "/gcmaf-for-sale/gcmaf-buy" },
+  { label: "Treatment", href: "/gcmaf-for-sale/gcmaf-treatment" },
+  { label: "Therapy", href: "/gcmaf-for-sale/gcmaf-therapy" },
+  { label: "Injections", href: "/gcmaf-for-sale/gcmaf-injections" },
+  { label: "Storage", href: "/gcmaf-for-sale/gcmaf-storage" },
+  { label: "Product Inquiry", href: "/gcmaf-for-sale/product-inquiry" },
 ];
 
 const pageSchema = {
@@ -113,13 +112,13 @@ export default function GcmafForSalePage() {
       >
         <div className="max-w-7xl mx-auto px-6 lg:px-8 flex gap-6 overflow-x-auto py-4 [scrollbar-width:none]">
           {sectionLinks.map((item) => (
-            <a
+            <Link
               key={item.href}
               href={item.href}
               className="font-body text-sm font-medium text-ink-muted hover:text-brand transition-colors whitespace-nowrap"
             >
               {item.label}
-            </a>
+            </Link>
           ))}
         </div>
       </nav>
