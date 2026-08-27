@@ -10,6 +10,9 @@ import { ContactBanner } from "@/components/sections/ContactBanner";
 
 export const metadata: Metadata = {
   title: "GcMAF | Activating Your Body's First Line of Defense",
+  alternates: {
+    canonical: "https://gcmaf.net/",
+  },
 };
 
 export default function HomePage() {
