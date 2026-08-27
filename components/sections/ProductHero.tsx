@@ -82,7 +82,7 @@ export function ProductHero() {
               src="/images/product/gcmaf-vials-transparent.png"
               alt="GcMAF liquid and lyophilized vials"
               unoptimized
-              width={1024}
+              width={1536}
               height={1024}
               className="w-full max-w-[680px] h-auto object-contain drop-shadow-[0_28px_34px_rgba(8,38,70,0.25)]"
               priority
