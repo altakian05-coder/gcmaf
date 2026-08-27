@@ -475,6 +475,8 @@ export default function GcmafForSalePage() {
               </Link>
             </section>
 
+            
+
             {/* REFERENCES */}
             <section className="blog-sources">
               <strong>External educational references:</strong>
