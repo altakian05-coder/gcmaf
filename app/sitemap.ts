@@ -49,7 +49,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     { url: `${baseUrl}/contact`, changeFrequency: "monthly", priority: 0.5 },
     {
-      url: `${baseUrl}/gcmaf-for-sale`,
+      url: `${baseUrl}/gcmaf-for-sale/`,
       changeFrequency: "weekly",
       priority: 0.9,
     },
