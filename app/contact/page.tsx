@@ -158,11 +158,6 @@ export default function ContactPage() {
                 </div>
 
               </div>
-              <div className="p-5 rounded-2xl border border-brand/20 bg-brand/5">
-                <p className="font-body text-sm text-ink-muted leading-relaxed">
-                  <strong className="text-ink">Prescription-only product.</strong> We do not supply directly to patients. All inquiries must come from or be directed by a licensed healthcare professional.
-                </p>
-              </div>
             </div>
 
             <div className="lg:col-span-3">
