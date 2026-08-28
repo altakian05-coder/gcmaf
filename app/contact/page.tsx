@@ -41,7 +41,7 @@ export default function ContactPage() {
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    
+
     if (!turnstileToken) {
       setStatus('error')
       return
@@ -49,7 +49,6 @@ export default function ContactPage() {
 
     setStatus('loading')
     try {
-      // Browsers bypass Cloudflare WAF easily. We map the state to Web3Forms payload requirements.
       const payload = {
         access_key: process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY || '',
         subject: `[GcMAF Inquiry] ${form.inquiry || 'General'} — ${form.name}`,
@@ -61,13 +60,13 @@ export default function ContactPage() {
         message: form.message,
       }
 
-      const res = await fetch('https://api.web3forms.com/submit', { 
-        method: 'POST', 
-        headers: { 
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
-        }, 
-        body: JSON.stringify(payload) 
+        },
+        body: JSON.stringify(payload)
       })
       setStatus(res.ok ? 'success' : 'error')
     } catch {
@@ -156,7 +155,6 @@ export default function ContactPage() {
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
 
@@ -215,6 +213,28 @@ export default function ContactPage() {
                   </form>
                 )}
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="pb-24 lg:pb-32 bg-bg">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="max-w-4xl rounded-2xl border border-border bg-surface p-8 md:p-10">
+            <h2 className="font-display text-3xl font-semibold text-ink mb-5">How to send a useful product or research inquiry</h2>
+            <div className="space-y-5 font-body text-ink-muted leading-8">
+              <p>
+                Providing a few practical details in your first message can help our team respond more efficiently. For product questions, include the formulation you are asking about, the destination country, expected quantity, and any storage or shipping requirements you need clarified. If your question concerns documentation, specify whether you need product specifications, batch information, handling guidance, or general procurement details.
+              </p>
+              <p>
+                For research-related communication, briefly describe the institution, field of interest, and the type of information being requested. Clear context helps distinguish a scientific information request from a logistics or product-availability question and allows the inquiry to be directed appropriately.
+              </p>
+              <p>
+                Product information and scientific evidence should be considered separately. Details about formulation, packaging, shipping, or quality documentation describe the product and its handling; they do not by themselves establish a clinical outcome for any disease. Questions about published evidence are better evaluated by reviewing the design, limitations, replication, and relevance of the underlying studies.
+              </p>
+              <p>
+                Before submitting an inquiry, you may also review our GcMAF information pages for background on formulations, storage, purchasing considerations, and research context. Including the exact page or topic that prompted your question can make the response more focused and reduce unnecessary back-and-forth.
+              </p>
             </div>
           </div>
         </div>
