@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/Button";
 import { MedicalDisclaimer } from "@/components/clinical";
 
 export const metadata: Metadata = {
-  title: "Autoimmune Conditions",
+  title: "Autoimmune Research: GcMAF & Immune Modulation",
   description:
     "Exploring the recalibration of immune tolerance mechanisms and VDR signaling with GcMAF.",
 };
