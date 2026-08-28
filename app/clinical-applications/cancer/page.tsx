@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/Button'
 import { MedicalDisclaimer } from '@/components/clinical'
 
 export const metadata: Metadata = {
-  title: 'Adjunct Cancer Care',
+  title: 'GcMAF Cancer Research: Evidence & Adjunct Care',
   description: 'GcMAF provides support for the immune system against cancer by targeting nagalase suppression and restoring macrophage activity.',
 }
 
