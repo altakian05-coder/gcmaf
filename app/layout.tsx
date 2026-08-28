@@ -22,7 +22,7 @@ const fontBody = Roboto({
 export const metadata: Metadata = {
   title: {
     default: 'GcMAF | Activating Your Body\'s First Line of Defense',
-    template: '%s | GcMAF',
+    template: '%s',
   },
   description: 'GcMAF is a naturally-occurring immune protein that activates macrophages. Clinical-grade GcMAF distributed to licensed physicians and medical institutions worldwide.',
   keywords: ['GcMAF', 'macrophage activating factor', 'immunotherapy', 'immune therapy', 'GcProtein'],
