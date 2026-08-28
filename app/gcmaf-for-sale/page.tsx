@@ -6,7 +6,7 @@ const pageTitle = "GcMAF Blog & Q/A | GcMAF for Sale";
 const pageDescription =
   "Explore GcMAF articles, questions and answers, supplement information, research, therapy, injections, buying considerations, storage, and professional product availability.";
 
-const canonicalUrl = "https://gcmaf.net/gcmaf-for-sale/";
+const canonicalUrl = "https://gcmaf.net/gcmaf-for-sale";
 
 export const metadata: Metadata = {
   title: { absolute: pageTitle },
