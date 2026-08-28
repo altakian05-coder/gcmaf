@@ -86,6 +86,40 @@ export default function BlogPage() {
               </span>
             </div>
           </Link>
+
+          {/* Article 3 */}
+          <Link
+            href="/blog/g3p-and-gcmaf-similarities"
+            className="group border border-border rounded-2xl overflow-hidden bg-surface hover:shadow-lg transition-all"
+          >
+            <div className="w-full h-52 overflow-hidden">
+              <img
+                src="/images/blog/g3p-and-gcmaf-similarities.webp"
+                alt="g3p cellular metabolism and GcMAF macrophage biology"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
+
+            <div className="p-6">
+              <p className="text-sm text-brand font-semibold mb-2">
+                Cellular Biology
+              </p>
+
+              <h2 className="text-2xl font-semibold text-ink mb-3">
+                g3p and GcMAF Similarities
+              </h2>
+
+              <p className="text-ink-muted mb-5">
+                Compare g3p (Glycerol-3-phosphate) and GcMAF, their roles in
+                metabolism, macrophage biology, immune signaling, and the key
+                differences between them.
+              </p>
+
+              <span className="font-semibold text-brand">
+                Read article →
+              </span>
+            </div>
+          </Link>
         </div>
       </section>
     </main>
