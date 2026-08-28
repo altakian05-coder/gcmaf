@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { HomeHero } from "@/components/sections/HomeHero";
 import { WhatIsGcMAF } from "@/components/sections/WhatIsGcMAF";
 import { ClinicalGrid } from "@/components/sections/ClinicalGrid";
@@ -92,6 +93,57 @@ export default function HomePage() {
       <BenefitsList />
       {/* <HowItWorks /> */}
       <ResearchStats />
+
+      <section className="py-20 bg-surface border-y border-border">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <div className="max-w-3xl mb-10">
+            <p className="font-body text-xs font-semibold uppercase tracking-[0.2em] text-brand mb-3">
+              Latest Insights
+            </p>
+            <h2 className="font-display text-3xl md:text-4xl font-semibold text-ink mb-4">
+              Explore More GcMAF Information
+            </h2>
+            <p className="font-body text-ink-muted leading-relaxed">
+              Read our latest educational articles on GcMAF research, cellular biology,
+              clinical access, and responsible product sourcing.
+            </p>
+          </div>
+
+          <div className="grid gap-6 md:grid-cols-2">
+            <Link
+              href="/blog/g3p-and-gcmaf-similarities"
+              className="rounded-2xl border border-border bg-bg p-6 transition hover:border-brand hover:shadow-md"
+            >
+              <p className="font-body text-xs font-semibold uppercase tracking-widest text-brand mb-2">
+                Cellular Biology
+              </p>
+              <h3 className="font-display text-xl font-semibold text-ink mb-3">
+                g3p and GcMAF Similarities
+              </h3>
+              <p className="font-body text-sm text-ink-muted leading-relaxed">
+                Compare g3p and GcMAF, including their distinct roles in metabolism,
+                macrophage biology, and cellular signaling.
+              </p>
+            </Link>
+
+            <Link
+              href="/blog/where-to-buy-gcmaf-clinical-channels"
+              className="rounded-2xl border border-border bg-bg p-6 transition hover:border-brand hover:shadow-md"
+            >
+              <p className="font-body text-xs font-semibold uppercase tracking-widest text-brand mb-2">
+                Clinical Access
+              </p>
+              <h3 className="font-display text-xl font-semibold text-ink mb-3">
+                Where to Buy GcMAF Through Clinical Channels
+              </h3>
+              <p className="font-body text-sm text-ink-muted leading-relaxed">
+                Review professional sourcing, documentation, storage, and procurement
+                considerations for clinical GcMAF access.
+              </p>
+            </Link>
+          </div>
+        </div>
+      </section>
 
       <ContactBanner />
     </>
