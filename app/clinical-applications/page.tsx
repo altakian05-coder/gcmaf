@@ -5,7 +5,7 @@ import { Shield, Brain, Activity, Zap, TrendingUp, ArrowRight } from 'lucide-rea
 import { conditions } from '@/lib/data/conditions'
 
 export const metadata: Metadata = {
-  title: 'Clinical Applications',
+  title: 'Clinical Applications: GcMAF Research & Evidence',
   description: 'GcMAF research spans cancer, neurological disorders, autoimmune diseases, chronic infections, and immune enhancement.',
   alternates: {
     canonical: 'https://gcmaf.net/clinical-applications',
