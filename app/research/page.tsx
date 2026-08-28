@@ -16,7 +16,7 @@ import {
 import { PublicationsList } from "@/components/sections/PublicationsList";
 
 export const metadata: Metadata = {
-  title: "Research & Publications",
+  title: "GcMAF Research & Publications: Evidence Overview",
   description:
     "Explore 30+ years of peer-reviewed GcMAF research across oncology, neurology, immunology, and infectious disease.",
 };
