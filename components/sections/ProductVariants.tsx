@@ -132,7 +132,7 @@ export function ProductVariants() {
                   </ul>
 
                   <Button
-                    href={`/contact?inquiry=${v.id}`}
+                    href="/contact"
                     className="mt-auto w-full justify-center bg-accent hover:bg-accent/90 shadow-none"
                   >
                     {v.cta}
