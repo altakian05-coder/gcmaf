@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/Button'
 import { MedicalDisclaimer } from '@/components/clinical'
 
 export const metadata: Metadata = {
-  title: 'Chronic Infections',
+  title: 'GcMAF Chronic Infection Research & Evidence',
   description: 'GcMAF works to activate macrophages against persistent threats from viruses, bacteria, and chronic immune-compromising infections.',
 }
 
