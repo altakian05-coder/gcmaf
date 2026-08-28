@@ -4,7 +4,8 @@ export default function G3pGcmafArticleLayout({ children }: { children: ReactNod
   return (
     <>
       <style>{`
-        main article figure figcaption {
+        main article figure figcaption,
+        main article .space-y-7 > .mt-10.rounded-2xl.border.border-border.bg-surface.p-6 {
           display: none !important;
         }
       `}</style>
