@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/Button'
 import { MedicalDisclaimer } from '@/components/clinical'
 
 export const metadata: Metadata = {
-  title: 'Neurological Disorders',
+  title: 'GcMAF Neurological Research: Microglia & Immunity',
   description: 'GcMAF modulates microglial activity and supports brain and nervous system health in various neurological conditions.',
 }
 
