@@ -13,6 +13,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/blog/g3p-and-gcmaf-similarities`,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/clinical-applications`,
       changeFrequency: "monthly",
       priority: 0.8,
