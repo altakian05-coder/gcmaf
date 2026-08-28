@@ -1,4 +1,26 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: { absolute: "GcMAF Blog | Research, Products & Clinical Insights" },
+  description:
+    "Explore GcMAF articles covering research, product information, clinical access, macrophage biology, storage, and educational topics.",
+  alternates: {
+    canonical: "https://gcmaf.net/blog",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title: "GcMAF Blog | Research, Products & Clinical Insights",
+    description:
+      "Explore GcMAF articles covering research, product information, clinical access, macrophage biology, storage, and educational topics.",
+    url: "https://gcmaf.net/blog",
+    siteName: "GcMAF",
+    type: "website",
+  },
+};
 
 export default function BlogPage() {
   return (
