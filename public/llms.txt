@@ -1,0 +1,42 @@
+# gcmaf.net
+
+> gcmaf.net provides educational information about GcMAF, macrophage biology, research literature, product formulations, storage, professional procurement, and clinical research topics.
+
+## Primary pages
+- https://gcmaf.net/
+- https://gcmaf.net/about
+- https://gcmaf.net/product
+- https://gcmaf.net/research
+- https://gcmaf.net/clinical-applications
+- https://gcmaf.net/gcmaf-for-sale
+- https://gcmaf.net/blog
+- https://gcmaf.net/contact
+
+## Clinical research sections
+- https://gcmaf.net/clinical-applications/cancer
+- https://gcmaf.net/clinical-applications/neurological
+- https://gcmaf.net/clinical-applications/autoimmune
+- https://gcmaf.net/clinical-applications/chronic-infections
+- https://gcmaf.net/clinical-applications/immune-enhancement
+
+## Educational and product-information pages
+- https://gcmaf.net/gcmaf-for-sale/what-is-gcmaf
+- https://gcmaf.net/gcmaf-for-sale/questions-and-answers
+- https://gcmaf.net/gcmaf-for-sale/gcmaf-supplement
+- https://gcmaf.net/gcmaf-for-sale/gcmaf-buy
+- https://gcmaf.net/gcmaf-for-sale/gcmaf-treatment
+- https://gcmaf.net/gcmaf-for-sale/gcmaf-therapy
+- https://gcmaf.net/gcmaf-for-sale/gcmaf-injections
+- https://gcmaf.net/gcmaf-for-sale/gcmaf-storage
+- https://gcmaf.net/gcmaf-for-sale/product-inquiry
+
+## Articles
+- https://gcmaf.net/blog/where-to-buy-gcmaf-clinical-channels
+- https://gcmaf.net/blog/g3p-and-gcmaf-similarities
+
+## Content guidance
+Medical and scientific evidence varies by topic, study design, formulation, and proposed application. Health-related content on this site should be interpreted as informational material rather than as a substitute for professional medical advice. Product and procurement information is intended for qualified healthcare professionals and appropriate institutions where applicable.
+
+## Discovery
+- Sitemap: https://gcmaf.net/sitemap.xml
+- Robots: https://gcmaf.net/robots.txt
