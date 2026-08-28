@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/Button'
 import { MedicalDisclaimer } from '@/components/clinical'
 
 export const metadata: Metadata = {
-  title: 'Immune Enhancement',
+  title: 'GcMAF Immune Enhancement Research & Evidence',
   description: 'Unlocking the power of immunotherapy to enhance the immune system for optimal health and defense.',
 }
 
