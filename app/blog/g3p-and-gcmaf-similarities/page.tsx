@@ -3,6 +3,7 @@ import Link from "next/link";
 import { ArrowLeft, ChevronRight, ExternalLink } from "lucide-react";
 
 const title = "g3p and GcMAF Similarities: Metabolism, Immunity & Cellular Function";
+const seoTitle = "g3p and GcMAF Similarities: Metabolism & Immunity";
 
 const description =
   "Compare g3p (Glycerol-3-phosphate) and GcMAF, their roles in metabolism, macrophage biology, cellular signaling, key differences, and what research actually shows.";
@@ -11,7 +12,7 @@ const canonical = "https://gcmaf.net/blog/g3p-and-gcmaf-similarities";
 const image = "https://gcmaf.net/images/blog/g3p-and-gcmaf-similarities.webp";
 
 export const metadata: Metadata = {
-  title: `${title} | GcMAF`,
+  title: { absolute: seoTitle },
   description,
   keywords: [
     "g3p and GcMAF similarities",
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
   alternates: { canonical },
   robots: { index: true, follow: true },
   openGraph: {
-    title,
+    title: seoTitle,
     description,
     url: canonical,
     siteName: "GcMAF",
@@ -44,7 +45,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title,
+    title: seoTitle,
     description,
     images: [image],
   },
