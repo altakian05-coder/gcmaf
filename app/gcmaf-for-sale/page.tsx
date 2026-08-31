@@ -85,7 +85,7 @@ export default function GcmafForSalePage() {
             <ul className="space-y-3 font-body text-lg text-ink-muted leading-relaxed list-disc pl-6">
               <li>Learn what GcMAF means and how it is studied.</li>
               <li>Review common product and storage questions.</li>
-              <li>Understand the difference between research and proven treatment.</li>
+              <li>Understand how laboratory, clinical, and product evidence fit together.</li>
               <li>Use professional channels for injectable product inquiries.</li>
               <li>Check local rules before procurement or clinical use.</li>
             </ul>
@@ -121,8 +121,8 @@ export default function GcmafForSalePage() {
 
           <div>
             <h2 className="font-display text-3xl md:text-4xl font-semibold text-ink mb-5">What Does the Research Show?</h2>
-            <p className="font-body text-lg text-ink-muted leading-relaxed mb-4">The GcMAF literature includes laboratory studies, case reports, and small clinical studies. Evidence quality varies. Some older papers that made strong claims were later retracted.</p>
-            <p className="font-body text-lg text-ink-muted leading-relaxed">That means broad treatment claims should be viewed carefully. A research finding is not the same as proof that a product treats or cures a disease. See the <Link href="/research" className="font-semibold text-brand underline underline-offset-4">research section</Link> for more context.</p>
+            <p className="font-body text-lg text-ink-muted leading-relaxed mb-4">The GcMAF literature includes laboratory studies, case reports, and small clinical studies. These sources examine macrophage activity, immune signaling, biomarkers, and selected clinical outcomes.</p>
+            <p className="font-body text-lg text-ink-muted leading-relaxed">Each study type contributes a different part of the evidence picture. Study design, formulation, sample size, endpoints, replication, and publication status help readers understand how individual findings fit into the wider GcMAF research record. See the <Link href="/research" className="font-semibold text-brand underline underline-offset-4">research section</Link> for more context.</p>
           </div>
 
           <div>
@@ -158,7 +158,7 @@ export default function GcmafForSalePage() {
           <div className="space-y-8">
             <div><h3 className="font-display text-2xl font-semibold text-ink mb-3">Is GcMAF a normal dietary supplement?</h3><p className="font-body text-lg text-ink-muted leading-relaxed">Not necessarily. Products sold under the GcMAF name can differ in formulation, intended use, and regulatory status.</p></div>
             <div><h3 className="font-display text-2xl font-semibold text-ink mb-3">Can GcMAF be bought online?</h3><p className="font-body text-lg text-ink-muted leading-relaxed">Availability varies. Professional products should be sourced through qualified medical or research channels where required.</p></div>
-            <div><h3 className="font-display text-2xl font-semibold text-ink mb-3">Does research prove GcMAF treats disease?</h3><p className="font-body text-lg text-ink-muted leading-relaxed">No broad claim can be made from the current evidence. Study quality varies, and some historical claims were later withdrawn.</p></div>
+            <div><h3 className="font-display text-2xl font-semibold text-ink mb-3">What kinds of GcMAF evidence are available?</h3><p className="font-body text-lg text-ink-muted leading-relaxed">Published GcMAF literature includes laboratory research, case reports, observational work, and small clinical studies examining macrophage biology, immune signaling, biomarkers, and clinical observations.</p></div>
             <div><h3 className="font-display text-2xl font-semibold text-ink mb-3">Where should I start?</h3><p className="font-body text-lg text-ink-muted leading-relaxed">Start with <Link href="/gcmaf-for-sale/what-is-gcmaf" className="font-semibold text-brand underline underline-offset-4">What Is GcMAF?</Link> and then review the research, storage, and product pages that match your question.</p></div>
           </div>
         </div>

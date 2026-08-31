@@ -17,7 +17,7 @@ const values = [
     icon: FlaskConical,
     title: 'Scientific Integrity',
     description:
-      'Every claim we make is grounded in peer-reviewed research. We do not overstate evidence or make therapeutic promises beyond what the science supports.',
+      'Our scientific content is grounded in peer-reviewed research, with findings presented in the context of study design, formulation, evidence quality, and current scientific understanding.',
   },
   {
     icon: Award,

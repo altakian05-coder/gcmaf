@@ -9,7 +9,7 @@ export function MedicalDisclaimer() {
           <div>
             <h4 className="font-display font-semibold text-ink text-sm uppercase tracking-widest mb-2">Medical Disclaimer</h4>
             <p className="font-body text-ink-muted text-sm leading-relaxed">
-              GcMAF is a prescription-only product distributed exclusively to licensed physicians and medical clinics. This information is provided strictly for educational purposes and to support professional scientific discourse. Outcomes mentioned are investigational and vary widely by individual clinical presentation.
+              GcMAF is a prescription-only product distributed exclusively to licensed physicians and medical clinics. This information is provided for educational purposes and to support professional scientific discussion. Clinical interpretation, product selection, and patient-specific decisions should be guided by appropriately qualified healthcare professionals.
             </p>
           </div>
         </div>
