@@ -32,12 +32,12 @@ export const faqs: FAQ[] = [
   {
     question: 'Can cancer patients use GcMAF?',
     answer:
-      'Research has explored GcMAF as a complementary adjunct in oncology settings, particularly due to the documented suppression of endogenous GcMAF production by nagalase — an enzyme elevated in most cancers. Clinical use in oncology patients must be directed by a qualified oncologist or integrative medicine physician and should not replace approved cancer treatments.',
+      'Research has explored GcMAF as a complementary adjunct in oncology settings, particularly in studies involving nagalase, macrophage activation, and immune regulation. Clinical use in oncology patients should be directed by a qualified oncologist or integrative medicine physician and coordinated with the patient\'s established cancer treatment plan.',
   },
   {
     question: 'Is GcMAF relevant for autoimmune conditions?',
     answer:
-      'Yes. Research indicates GcMAF may have immunomodulatory effects relevant to autoimmune disease — not through immune suppression, but by supporting the restoration of appropriate immune regulation. Studies have explored applications in rheumatoid arthritis, lupus, multiple sclerosis, and related conditions. Autoimmune applications require careful clinical evaluation and ongoing specialist monitoring.',
+      'Yes. Research indicates GcMAF may have immunomodulatory effects relevant to autoimmune disease by supporting immune regulation and macrophage-related pathways. Studies have explored applications in rheumatoid arthritis, lupus, multiple sclerosis, and related conditions. Autoimmune applications require careful clinical evaluation and ongoing specialist monitoring.',
   },
   {
     question: 'Can healthy individuals benefit from GcMAF?',
