@@ -8,7 +8,7 @@ import { PublicationsList } from "@/components/sections/PublicationsList";
 export const metadata: Metadata = {
   title: "GcMAF Research & Publications: Evidence Overview",
   description:
-    "Explore GcMAF research, publications, macrophage biology, study limitations, and the difference between laboratory findings and clinical evidence.",
+    "Explore GcMAF research, publications, macrophage biology, clinical studies, study design, and the scientific evidence across different research settings.",
 };
 
 export default function ResearchPage() {
@@ -36,11 +36,11 @@ export default function ResearchPage() {
           <div className="rounded-3xl border border-brand/20 bg-brand/5 p-8 lg:p-10">
             <h2 className="font-display text-3xl font-semibold text-ink mb-5">How to read this research</h2>
             <ul className="space-y-3 font-body text-lg text-ink-muted leading-relaxed list-disc pl-6">
-              <li>Laboratory findings can explain biology, but they do not prove treatment benefit.</li>
-              <li>Case reports can suggest ideas, but they cannot establish broad effectiveness.</li>
-              <li>Small clinical studies need careful interpretation.</li>
-              <li>Retracted papers should not be used as reliable clinical evidence.</li>
-              <li>Current medical decisions should follow qualified clinical and regulatory guidance.</li>
+              <li>Laboratory findings help explain biological mechanisms and cellular responses.</li>
+              <li>Case reports and observational studies can provide useful clinical observations and generate research questions.</li>
+              <li>Clinical studies evaluate outcomes in people and are interpreted according to design, sample size, controls, and endpoints.</li>
+              <li>Publication status, corrections, and retractions are part of a complete evidence review.</li>
+              <li>Medical decisions should use current evidence together with qualified clinical and regulatory guidance.</li>
             </ul>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function ResearchPage() {
                 GcMAF research focuses on macrophage biology and vitamin D-binding protein. Macrophages are immune cells that remove debris, respond to microbes, and help coordinate immune signals.
               </p>
               <p className="font-body text-lg text-ink-muted leading-relaxed">
-                Some studies ask whether a factor derived from vitamin D-binding protein can change macrophage activity. Other studies examine related pathways, biomarkers, or immune responses.
+                Some studies ask whether a factor derived from vitamin D-binding protein can change macrophage activity. Other studies examine related pathways, biomarkers, immune responses, and selected clinical outcomes.
               </p>
             </div>
             <div className="relative rounded-3xl overflow-hidden">
@@ -71,7 +71,7 @@ export default function ResearchPage() {
           <div className="text-center max-w-3xl mx-auto mb-12">
             <p className="font-body text-xs font-semibold uppercase tracking-[0.2em] text-brand mb-4">Scope of Research</p>
             <h2 className="font-display text-4xl font-semibold text-ink mb-5">Topics Found in the Literature</h2>
-            <p className="font-body text-lg text-ink-muted leading-relaxed">These topics appear in GcMAF-related research. Their evidence strength is not equal.</p>
+            <p className="font-body text-lg text-ink-muted leading-relaxed">These topics appear in GcMAF-related research, with evidence coming from different study designs and research settings.</p>
           </div>
           <div className="flex flex-wrap justify-center gap-3">
             {researchConditions.map((condition) => (
@@ -84,25 +84,25 @@ export default function ResearchPage() {
       <section className="py-24 bg-[var(--color-surface)]">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl mb-12">
-            <h2 className="font-display text-4xl font-semibold text-ink mb-5">Different Study Types Mean Different Things</h2>
-            <p className="font-body text-lg text-ink-muted leading-relaxed">A useful review starts by asking what kind of study produced the result.</p>
+            <h2 className="font-display text-4xl font-semibold text-ink mb-5">Different Study Types Answer Different Questions</h2>
+            <p className="font-body text-lg text-ink-muted leading-relaxed">A useful review starts by asking what kind of study produced the result and what question that design was built to answer.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
             <div className="rounded-3xl border border-border bg-bg p-8">
               <h3 className="font-display text-2xl font-semibold text-ink mb-4">Laboratory studies</h3>
-              <p className="font-body text-ink-muted leading-relaxed">These studies can show how cells or molecules behave under controlled conditions. They are useful for mechanism research. They do not prove that a treatment works in people.</p>
+              <p className="font-body text-ink-muted leading-relaxed">These studies show how cells or molecules behave under controlled conditions and are especially useful for understanding mechanisms, signaling, and macrophage responses.</p>
             </div>
             <div className="rounded-3xl border border-border bg-bg p-8">
               <h3 className="font-display text-2xl font-semibold text-ink mb-4">Animal studies</h3>
-              <p className="font-body text-ink-muted leading-relaxed">Animal work can test biological ideas in a whole organism. Results can guide later research. Human outcomes may still be different.</p>
+              <p className="font-body text-ink-muted leading-relaxed">Animal work can test biological ideas in a whole organism and help researchers design later studies that examine human biology and clinical outcomes.</p>
             </div>
             <div className="rounded-3xl border border-border bg-bg p-8">
               <h3 className="font-display text-2xl font-semibold text-ink mb-4">Case reports</h3>
-              <p className="font-body text-ink-muted leading-relaxed">A case report describes one person or a small number of people. It can highlight an observation. It cannot prove cause and effect.</p>
+              <p className="font-body text-ink-muted leading-relaxed">A case report describes one person or a small number of people and can highlight clinical observations, treatment experiences, biomarkers, and questions for further study.</p>
             </div>
             <div className="rounded-3xl border border-border bg-bg p-8">
               <h3 className="font-display text-2xl font-semibold text-ink mb-4">Clinical trials</h3>
-              <p className="font-body text-ink-muted leading-relaxed">Well-designed clinical trials provide stronger evidence. Randomization, control groups, clear outcomes, and adequate sample size all matter.</p>
+              <p className="font-body text-ink-muted leading-relaxed">Clinical trials evaluate outcomes in people. Randomization, control groups, clear outcomes, follow-up, and adequate sample size help determine how confidently results can be interpreted.</p>
             </div>
           </div>
         </div>
@@ -112,13 +112,13 @@ export default function ResearchPage() {
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
             <div>
-              <h2 className="font-display text-4xl font-semibold text-ink mb-6">Why Retractions Matter</h2>
-              <p className="font-body text-lg text-ink-muted leading-relaxed mb-4">Some well-known GcMAF papers made strong cancer-treatment claims. Several were later retracted. A retraction means the paper should not be treated as reliable evidence.</p>
-              <p className="font-body text-lg text-ink-muted leading-relaxed">This history does not make every research question invalid. It does mean readers should check the status of important papers before using them to support a claim.</p>
+              <h2 className="font-display text-4xl font-semibold text-ink mb-6">Why Publication Status Matters</h2>
+              <p className="font-body text-lg text-ink-muted leading-relaxed mb-4">GcMAF has a varied publication history. Some well-known papers, including papers that discussed cancer-related outcomes, were later retracted.</p>
+              <p className="font-body text-lg text-ink-muted leading-relaxed">A complete review considers the original findings together with replication, later publications, corrections, retractions, and the exact formulation and methods used in each study.</p>
             </div>
             <div className="rounded-2xl border border-amber-500/25 bg-amber-500/5 p-7">
-              <div className="flex items-center gap-2 mb-3"><AlertTriangle size={18} className="text-amber-500" /><span className="font-body text-xs font-semibold uppercase tracking-widest text-amber-500">Important</span></div>
-              <p className="font-body text-sm text-ink-muted leading-relaxed">Strong disease-treatment claims require strong clinical evidence. Older or retracted studies should not be used as proof of effectiveness.</p>
+              <div className="flex items-center gap-2 mb-3"><AlertTriangle size={18} className="text-amber-500" /><span className="font-body text-xs font-semibold uppercase tracking-widest text-amber-500">Evidence context</span></div>
+              <p className="font-body text-sm text-ink-muted leading-relaxed">Disease-treatment claims are best evaluated with clinical studies designed to measure relevant outcomes, alongside mechanistic research and the broader publication record.</p>
             </div>
           </div>
         </div>
@@ -150,9 +150,9 @@ export default function ResearchPage() {
       <section className="py-24 bg-bg">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           <div className="max-w-3xl mb-10">
-            <h2 className="font-display text-4xl font-semibold text-ink mb-5">Research and Clinical Use Are Not the Same</h2>
-            <p className="font-body text-lg text-ink-muted leading-relaxed mb-4">A mechanism can be scientifically interesting without being a proven therapy. This distinction is important for GcMAF.</p>
-            <p className="font-body text-lg text-ink-muted leading-relaxed">People making medical decisions should use current evidence and qualified clinical advice. Investigational approaches should not replace standard diagnosis or proven treatment.</p>
+            <h2 className="font-display text-4xl font-semibold text-ink mb-5">Connecting Mechanism Research With Clinical Evidence</h2>
+            <p className="font-body text-lg text-ink-muted leading-relaxed mb-4">GcMAF research includes biological mechanisms, macrophage responses, biomarkers, case observations, and clinical studies. Together, these layers help researchers understand where findings agree and where additional study can add clarity.</p>
+            <p className="font-body text-lg text-ink-muted leading-relaxed">People making medical decisions should use current evidence and qualified clinical advice so that research findings, individual circumstances, and established care can be considered together.</p>
           </div>
           <div className="flex flex-wrap gap-4">
             <Link href="/about" className="inline-flex items-center rounded-full border border-border bg-surface px-5 py-3 font-body text-sm font-semibold text-ink hover:border-brand hover:text-brand transition-colors">About GcMAF</Link>
@@ -167,7 +167,7 @@ export default function ResearchPage() {
           <div className="max-w-3xl mb-12">
             <p className="font-body text-xs font-semibold uppercase tracking-[0.2em] text-brand mb-4">Selected Publications</p>
             <h2 className="font-display text-4xl font-semibold text-ink mb-5">Published Papers</h2>
-            <p className="font-body text-lg text-ink-muted leading-relaxed">The list below provides source material for further review. Publication alone does not guarantee that a claim is correct or clinically proven.</p>
+            <p className="font-body text-lg text-ink-muted leading-relaxed">The list below provides source material for further review. Each paper is best interpreted in the context of its methods, sample size, formulation, endpoints, publication status, and later research.</p>
           </div>
           <PublicationsList publications={publications} />
         </div>
