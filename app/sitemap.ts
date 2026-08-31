@@ -8,6 +8,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/about`, changeFrequency: "monthly", priority: 0.7 },
     { url: `${baseUrl}/blog`, changeFrequency: "weekly", priority: 0.8 },
     {
+      url: `${baseUrl}/blog/autistic-in-japan`,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/blog/where-to-buy-gcmaf-clinical-channels`,
       changeFrequency: "monthly",
       priority: 0.8,
