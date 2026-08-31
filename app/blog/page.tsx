@@ -43,6 +43,30 @@ export default function BlogPage() {
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           <Link
+            href="/blog/autistic-in-japan"
+            className="group border border-border rounded-2xl overflow-hidden bg-surface hover:shadow-lg transition-all"
+          >
+            <div className="w-full h-52 overflow-hidden">
+              <img
+                src="/images/blog/autistic-in-japan-gcmaf-research.png"
+                alt="Autistic in Japan - GcMAF and autism macrophage research"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
+
+            <div className="p-6">
+              <p className="text-sm text-brand font-semibold mb-2">Autism Research</p>
+              <h2 className="text-2xl font-semibold text-ink mb-3">Autistic in Japan</h2>
+              <p className="text-ink-muted mb-5">
+                Explore research examining GcMAF effects on macrophages derived
+                from autistic children, including immune signaling, CB2 receptors,
+                and vitamin D-binding protein.
+              </p>
+              <span className="font-semibold text-brand">Read article →</span>
+            </div>
+          </Link>
+
+          <Link
             href="/gcmaf-for-sale"
             className="group border border-border rounded-2xl overflow-hidden bg-surface hover:shadow-lg transition-all"
           >
