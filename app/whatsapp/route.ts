@@ -8,6 +8,12 @@ export function GET(request: Request) {
   const source = requestUrl.searchParams.get("source") || "website";
   const from = requestUrl.searchParams.get("from") || "/";
 
+  console.log({
+    event: "whatsapp_click",
+    source,
+    from,
+  });
+
   const destination = new URL(`https://wa.me/${number}`);
   destination.searchParams.set(
     "text",
