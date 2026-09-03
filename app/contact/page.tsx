@@ -32,8 +32,7 @@ function ActionLink({ icon: Icon, label, href }: { icon: React.ElementType, labe
 
 function WhatsAppAction({ label }: { label: string }) {
   const handleClick = () => {
-    const number = SITE_PHONE.replace(/\D/g, '')
-    window.open(`https://wa.me/${number}`, '_blank', 'noopener,noreferrer')
+    window.open('/whatsapp?source=contact&from=%2Fcontact', '_blank', 'noopener,noreferrer')
   }
 
   return (
