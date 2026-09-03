@@ -13,6 +13,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${baseUrl}/blog/where-to-get-gcmaf-treatment`,
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
       url: `${baseUrl}/blog/where-to-buy-gcmaf-clinical-channels`,
       changeFrequency: "monthly",
       priority: 0.8,
