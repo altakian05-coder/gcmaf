@@ -138,6 +138,30 @@ export default function BlogPage() {
               <span className="font-semibold text-brand">Read article →</span>
             </div>
           </Link>
+
+          <Link
+            href="/blog/where-to-get-gcmaf-treatment"
+            className="group border border-border rounded-2xl overflow-hidden bg-surface hover:shadow-lg transition-all"
+          >
+            <div className="w-full h-52 overflow-hidden">
+              <img
+                src="/images/blog/where-to-get-gcmaf-treatment.png"
+                alt="Where to get GcMAF treatment through qualified clinical channels"
+                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
+
+            <div className="p-6">
+              <p className="text-sm text-brand font-semibold mb-2">Treatment & Clinical Access</p>
+              <h2 className="text-2xl font-semibold text-ink mb-3">Where to Get GcMAF Treatment</h2>
+              <p className="text-ink-muted mb-5">
+                Learn how to access GcMAF through qualified clinical channels,
+                including physician guidance, formulations, product quality,
+                storage, and professional treatment planning.
+              </p>
+              <span className="font-semibold text-brand">Read article →</span>
+            </div>
+          </Link>
         </div>
 
         <section className="mt-16 max-w-4xl rounded-2xl border border-border bg-surface p-8 md:p-10">
