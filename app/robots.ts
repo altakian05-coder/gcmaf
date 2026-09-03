@@ -8,18 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
         disallow: "/whatsapp",
       },
-      {
-        userAgent: [
-          "Amazonbot",
-          "Applebot-Extended",
-          "Bytespider",
-          "CCBot",
-          "ClaudeBot",
-          "GPTBot",
-          "meta-externalagent",
-        ],
-        disallow: "/",
-      },
     ],
     sitemap: "https://gcmaf.net/sitemap.xml",
   };
