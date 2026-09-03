@@ -30,6 +30,25 @@ function ActionLink({ icon: Icon, label, href }: { icon: React.ElementType, labe
   );
 }
 
+function WhatsAppAction({ label }: { label: string }) {
+  const handleClick = () => {
+    const number = SITE_PHONE.replace(/\D/g, '')
+    window.open(`https://wa.me/${number}`, '_blank', 'noopener,noreferrer')
+  }
+
+  return (
+    <button
+      type="button"
+      onClick={handleClick}
+      className="flex items-center gap-1.5 font-body text-sm font-medium text-ink hover:text-brand transition-colors bg-transparent border-0 cursor-pointer p-0"
+      aria-label={`Open WhatsApp chat with ${SITE_PHONE}`}
+    >
+      <WhatsAppIcon size={16} />
+      {label}
+    </button>
+  )
+}
+
 export default function ContactPage() {
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle')
   const [form, setForm] = useState({ name: '', email: '', inquiry: 'general', message: '' })
@@ -134,7 +153,7 @@ export default function ContactPage() {
                       <p className="font-body text-sm text-ink-muted leading-relaxed mb-4">{SITE_PHONE}</p>
                       <div className="flex items-center gap-6 pt-4 border-t border-border">
                         <CopyButton text={SITE_PHONE} />
-                        <ActionLink icon={WhatsAppIcon} label="WhatsApp" href={`https://wa.me/${SITE_PHONE.replace(/\D/g, '')}`} />
+                        <WhatsAppAction label="WhatsApp" />
                       </div>
                     </div>
                   </div>
