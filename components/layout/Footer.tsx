@@ -32,6 +32,11 @@ export function Footer() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const openWhatsApp = () => {
+    const number = SITE_PHONE.replace(/\D/g, "");
+    window.open(`https://wa.me/${number}`, "_blank", "noopener,noreferrer");
+  };
+
   return (
     <>
       {/* Scroll-to-top */}
@@ -112,14 +117,14 @@ export function Footer() {
                 </li>
                 <li className="flex items-start gap-3">
                   <WhatsAppIcon size={16} className="text-brand mt-0.5 shrink-0" />
-                  <a
-                    href={`https://wa.me/${SITE_PHONE.replace(/\D/g, '')}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-body text-sm text-white/60 hover:text-brand transition-colors"
+                  <button
+                    type="button"
+                    onClick={openWhatsApp}
+                    className="font-body text-sm text-white/60 hover:text-brand transition-colors bg-transparent border-0 p-0 cursor-pointer text-left"
+                    aria-label={`Open WhatsApp chat with ${SITE_PHONE}`}
                   >
                     {SITE_PHONE}
-                  </a>
+                  </button>
                 </li>
                 <li className="flex items-start gap-3">
                   <MapPin size={16} className="text-brand mt-0.5 shrink-0" />
