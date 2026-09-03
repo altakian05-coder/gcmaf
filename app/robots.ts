@@ -15,7 +15,6 @@ export default function robots(): MetadataRoute.Robots {
           "Bytespider",
           "CCBot",
           "ClaudeBot",
-          "Google-Extended",
           "GPTBot",
           "meta-externalagent",
         ],
