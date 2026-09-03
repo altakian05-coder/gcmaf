@@ -33,8 +33,12 @@ export function Footer() {
   }, []);
 
   const openWhatsApp = () => {
-    const number = SITE_PHONE.replace(/\D/g, "");
-    window.open(`https://wa.me/${number}`, "_blank", "noopener,noreferrer");
+    const from = encodeURIComponent(window.location.pathname);
+    window.open(
+      `/whatsapp?source=footer&from=${from}`,
+      "_blank",
+      "noopener,noreferrer"
+    );
   };
 
   return (
